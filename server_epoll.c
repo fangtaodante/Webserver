@@ -111,7 +111,7 @@ void http_request(const char* request,int cfd){
     //如果是目录
     if(S_ISDIR(st.st_mode)){
         //目录
-        send_respond_head(cfd,200,"OK","text/html",-1);
+        send_respond_head(cfd,200,"OK",get_file_type(".html"),-1);
         send_dir(cfd,file);
     }
     else if(S_ISREG(st.st_mode)){
