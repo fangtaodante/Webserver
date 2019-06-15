@@ -1,0 +1,3 @@
+/home/dante/NewServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dante/NewServer/cmake-build-debug/CMakeFiles/NewServer.dir
+/home/dante/NewServer/cmake-build-debug/CMakeFiles/edit_cache.dir

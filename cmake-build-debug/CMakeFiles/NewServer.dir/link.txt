@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/NewServer.dir/main.c.o CMakeFiles/NewServer.dir/server_epoll.c.o CMakeFiles/NewServer.dir/wrap.c.o  -o NewServer 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dante/NewServer/server_epoll.c
+unistd.h
+-
+stdlib.h
+-
+sys/epoll.h
+-
+sys/socket.h
+-
+stdio.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+dirent.h
+-
+string.h
+-
+ctype.h
+-
+server_epoll.h
+/home/dante/NewServer/server_epoll.h
+
+/home/dante/NewServer/server_epoll.h
+
