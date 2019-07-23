@@ -1,3 +1,3 @@
 #!bin/bash
 set -e
-make
+cmake ./
